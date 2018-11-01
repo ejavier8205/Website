@@ -1,0 +1,56 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    background-image: linear-gradient(to top right, red, #ffac6c);
+}
+
+
+h1
+{
+    padding: 0;
+    margin: 0;
+}
+
+.websiteTitle
+{
+    float: left;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    height: auto;
+    font-family: 'Caveat', cursive;
+    font-weight: 100;
+    font-size: 400%;
+    background-color: gray;
+    text-align: center;
+
+}
+
+.mainMenu
+{
+    display: inline-block;
+    list-style-type: none;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
